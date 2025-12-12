@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo - Danki Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="quiz-card">
+            <!-- Menu de Seleção -->
+            <div class="menu-section" id="menuSection">
+                <h1 class="menu-title">🎮 Escolha seu Quiz</h1>
+                <p class="menu-subtitle">Selecione o modo de jogo</p>
+
+                <div class="mode-cards">
+                    <div class="mode-card" id="dankiModeBtn">
+                        <div class="mode-icon">🎓</div>
+                        <h3>Quiz Danki Code</h3>
+                        <p>5 perguntas sobre programação e Danki Code</p>
+                    </div>
+
+                    <div class="mode-card" id="generalModeBtn">
+                        <div class="mode-icon">🌍</div>
+                        <h3>Quiz Geral</h3>
+                        <p>Perguntas aleatórias de conhecimentos gerais</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div class="loading-section hidden" id="loadingSection">
+                <div class="spinner"></div>
+                <p>Carregando perguntas...</p>
+            </div>
+
+            <!-- Header do Quiz -->
+            <div class="header hidden" id="quizHeader">
+                <h1 id="quizTitle">🎮 Quiz Danki Code</h1>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <p class="question-counter">Pergunta <span id="currentQuestion">1</span> de <span
+                        id="totalQuestions">5</span></p>
+            </div>
+
+            <!-- Conteúdo do Quiz -->
+            <div class="quiz-content hidden" id="quizContent">
+                <div class="question-section">
+                    <h2 class="question" id="questionText"></h2>
+                    <div class="input-container" id="inputContainer">
+                        <input type="text" id="answerInput" placeholder="Digite sua resposta..." autocomplete="off">
+                        <button class="submit-btn" id="submitBtn">
+                            <span>Responder</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="options-container hidden" id="optionsContainer"></div>
+                    <div class="feedback" id="feedback"></div>
+                </div>
+            </div>
+
+            <!-- Resultados -->
+            <div class="result-section hidden" id="resultSection">
+                <div class="result-content">
+                    <div class="trophy">🏆</div>
+                    <h2>Quiz Finalizado!</h2>
+                    <div class="score-display">
+                        <span class="score-number" id="finalScore">0</span>
+                        <span class="score-total">/ 5</span>
+                    </div>
+                    <p class="score-message" id="scoreMessage"></p>
+                    <button class="restart-btn" id="restartBtn">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path
+                                d="M4 10C4 6.68629 6.68629 4 10 4C13.3137 4 16 6.68629 16 10C16 13.3137 13.3137 16 10 16C8.34315 16 6.84315 15.3284 5.75736 14.2426"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            <path d="M7 14L5 14L5 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        Voltar ao Menu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
