@@ -1,0 +1,15 @@
+C:\danki_c\primeiroApp\bin\Debug\net10.0\primeiroApp.exe
+C:\danki_c\primeiroApp\bin\Debug\net10.0\primeiroApp.deps.json
+C:\danki_c\primeiroApp\bin\Debug\net10.0\primeiroApp.runtimeconfig.json
+C:\danki_c\primeiroApp\bin\Debug\net10.0\primeiroApp.dll
+C:\danki_c\primeiroApp\bin\Debug\net10.0\primeiroApp.pdb
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.AssemblyInfoInputs.cache
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.AssemblyInfo.cs
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.csproj.CoreCompileInputs.cache
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.sourcelink.json
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.dll
+C:\danki_c\primeiroApp\obj\Debug\net10.0\refint\primeiroApp.dll
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.pdb
+C:\danki_c\primeiroApp\obj\Debug\net10.0\primeiroApp.genruntimeconfig.cache
+C:\danki_c\primeiroApp\obj\Debug\net10.0\ref\primeiroApp.dll
